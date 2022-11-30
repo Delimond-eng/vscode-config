@@ -18,7 +18,25 @@
         "[Tokyo Night]": {
             "editor.selectionBackground": "#3D59A1",
             "editor.selectionHighlightBackground": "#3D59A1"
-        }
+        },
+     
+        "terminal.foreground":"#5df049",
+        "terminal.ansiBlack":"#1D2021",
+        "terminal.ansiBrightBlack":"#75f85a",
+        "terminal.ansiBrightBlue":"#0D6678",
+        "terminal.ansiBrightCyan":"#707df3",
+        "terminal.ansiBrightGreen":"#237e02",
+        "terminal.ansiBrightMagenta":"#8F4673",
+        "terminal.ansiBrightRed":"#FB543F",
+        "terminal.ansiBrightWhite":"#FDF4C1",
+        "terminal.ansiBrightYellow":"#FAC03B",
+        "terminal.ansiBlue":"#00a1f9",
+        "terminal.ansiCyan":"#8BA59B",
+        "terminal.ansiGreen":"#95C085",
+        "terminal.ansiMagenta":"#8F4673",
+        "terminal.ansiRed":"#FB543F",
+        "terminal.ansiWhite":"#A89984",
+        "terminal.ansiYellow":"#FAC03B"
     },
     "editor.fontFamily": "'JetBrains Mono','Droid Sans Mono', 'monospace', monospace",
     "editor.fontLigatures": true,
@@ -37,17 +55,21 @@
     },
     "editor.fontSize": 16,
     "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "editor.defaultFormatter": "Vue.volar",
+        "editor.formatOnSave": true
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
     },
     "[css]": {
-        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+        "editor.defaultFormatter": "vscode.css-language-features",
+        "editor.formatOnSave": true
     },
     "editor.inlineSuggest.enabled": true,
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
     },
     "javascript.updateImportsOnFileMove.enabled": "always",
     "java.saveActions.organizeImports": true,
@@ -59,5 +81,11 @@
                 "workbench.action.toggleActivityBarVisibility"
             ]
         }
-    ]
+    ],
+
+    "terminal.integrated.tabs.defaultIcon": "debug-breakpoint-log",
+    "terminal.integrated.tabs.title": "${sequence}",
+    "terminal.integrated.tabs.defaultColor":"terminal.ansiYellow",
+    "terminal.integrated.minimumContrastRatio": 1,
+    
 }
