@@ -6,6 +6,9 @@
     "editor.occurrencesHighlight": true,
     "editor.suggest.insertMode": "replace",
     "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.showFoldingControls": "always",
+    "editor.folding": true,
+    "editor.foldingStrategy": "indentation", 
     "files.autoSave": "onFocusChange",
     "files.defaultLanguage": "markdown",
     "explorer.autoReveal": false,
@@ -14,12 +17,12 @@
     "workbench.editor.enablePreview": true,
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "Tokyo Night",
+
     "workbench.colorCustomizations": {
         "[Tokyo Night]": {
             "editor.selectionBackground": "#3D59A1",
-            "editor.selectionHighlightBackground": "#3D59A1"
+            "editor.selectionHighlightBackground": "#3D59A1",
         },
-     
         "terminal.foreground":"#5df049",
         "terminal.ansiBlack":"#1D2021",
         "terminal.ansiBrightBlack":"#75f85a",
