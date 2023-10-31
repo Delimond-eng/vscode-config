@@ -31,5 +31,10 @@
     {
        "key": "ctrl+k",
        "command": "explorer.download"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus"
     }
 ]
