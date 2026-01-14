@@ -3,7 +3,7 @@
     "editor.formatOnPaste": false,
     "editor.renderWhitespace": "trailing",
     "editor.linkedEditing": true,
-    "editor.occurrencesHighlight": true,
+    "editor.occurrencesHighlight": "singleFile",
     "editor.suggest.insertMode": "replace",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.showFoldingControls": "always",
@@ -14,9 +14,8 @@
     "explorer.autoReveal": false,
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "always",
-    "workbench.editor.enablePreview": true,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "Tokyo Night Storm",
 
     "workbench.colorCustomizations": {
         "[Tokyo Night]": {
@@ -54,9 +53,9 @@
         "editor.suggest.snippetsPreventQuickSuggestions": false,
         "editor.suggestSelection": "first",
         "editor.tabCompletion": "onlySnippets",
-        "editor.wordBasedSuggestions": false
+        "editor.wordBasedSuggestions": "off"
     },
-    "editor.fontSize": 16,
+    "editor.fontSize": 14,
     "[vue]": {
         "editor.defaultFormatter": "Vue.volar",
         "editor.formatOnSave": true
@@ -90,5 +89,32 @@
     "terminal.integrated.tabs.title": "${sequence}",
     "terminal.integrated.tabs.defaultColor":"terminal.ansiYellow",
     "terminal.integrated.minimumContrastRatio": 1,
+    "security.allowedUNCHosts": [
+        "192.168.4.12",
+        "192.168.4.32",
+        "192.168.4.4",
+        "192.168.4.11",
+        "192.168.4.9"
+    ],
+    "[php]": {
+        "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "php.problems.exclude": {
+        "/": [
+            "PHP0419"
+        ],
+        "**/*": [
+            "PHP0406",
+            "PHP0443",
+            "PHP0418",
+            "PHP0416",
+            "PHP6601"
+        ]
+    },
+    "workbench.editor.empty.hint": "hidden",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     
 }
